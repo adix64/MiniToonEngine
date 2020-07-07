@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resourceManager>
+	<characters>
+		<character name="Tori">
+			<skinnedMeshRenderer>../assets/Characters/Tori/Tori.dae</skinnedMeshRenderer>
+			<diffuse>../assets/Characters/Tori/diffuse.png</diffuse>
+			<normal>../assets/Characters/Tori/normal.png</normal>
+			<specular>../assets/Characters/Tori/specular.png</specular>
+
+			<animations>
+				<runFwd><file>../assets/DefaultAnimations/runFwd.dae</file></runFwd>
+				<runLeft><file>../assets/DefaultAnimations/runLeft.dae</file></runLeft>
+				<runRight><file>../assets/DefaultAnimations/runRight.dae</file></runRight>
+
+				<walkFwd><file>../assets/DefaultAnimations/walkFwd.dae</file></walkFwd>
+				<walkLeft><file>../assets/DefaultAnimations/walkLeft.dae</file></walkLeft>
+				<walkRight><file>../assets/DefaultAnimations/walkRight.dae</file></walkRight>
+
+				<fwdL><file>../assets/DefaultAnimations/FwdL.dae</file></fwdL>
+				<fwdR><file>../assets/DefaultAnimations/FwdR.dae</file></fwdR>
+
+				<leftFwd><file>../assets/DefaultAnimations/LeftFwd.dae</file></leftFwd>
+				<rightFwd><file>../assets/DefaultAnimations/RightFwd.dae</file></rightFwd>
+
+				<left><file>../assets/DefaultAnimations/Left.dae</file></left>
+				<right><file>../assets/DefaultAnimations/Right.dae</file></right>
+
+				<leftBack><file>../assets/DefaultAnimations/LeftBack.dae</file></leftBack>
+				<rightBack><file>../assets/DefaultAnimations/RightBack.dae</file></rightBack>
+
+				<backL><file>../assets/DefaultAnimations/BackL.dae</file></backL>
+				<backR><file>../assets/DefaultAnimations/BackR.dae</file></backR>
+
+				<relaxedAttack1><file>../assets/DefaultAnimations/leftJab.dae</file><mandatoryTime t="9"/><maxFadeInTime t="4"/><relevantTime t="26"/><contact t="7"/></relaxedAttack1>
+				<relaxedAttack2><file>../assets/DefaultAnimations/rightStraight.dae</file><mandatoryTime t="10"/><maxFadeInTime t="2"/><relevantTime t="21"/><contact t="6"/></relaxedAttack2>
+				<relaxedAttack3><file>../assets/DefaultAnimations/leftCross.dae</file><mandatoryTime t="11"/><maxFadeInTime t="2"/><relevantTime t="19"/><contact t="6"/></relaxedAttack3>
+				<relaxedAttack4><file>../assets/DefaultAnimations/rightUppercut.dae</file><mandatoryTime t="12"/><maxFadeInTime t="3"/><relevantTime t="18"/><contact t="5"/></relaxedAttack4>
+				<relaxedAttack5><file>../assets/DefaultAnimations/DoublePunch.dae</file><mandatoryTime t="24"/><maxFadeInTime t="3"/><relevantTime t="24"/><contact t="10"/></relaxedAttack5>
+
+				<enragedAttack1><file>../assets/DefaultAnimations/Kick1.dae</file><mandatoryTime t="14"/><maxFadeInTime t="3"/><relevantTime t="21"/><contact t="6"/></enragedAttack1>
+				<enragedAttack2><file>../assets/DefaultAnimations/Kick2.dae</file><mandatoryTime t="13"/><maxFadeInTime t="3"/><relevantTime t="22"/><contact t="9"/></enragedAttack2>
+				<enragedAttack3><file>../assets/DefaultAnimations/Kick3.dae</file><mandatoryTime t="14"/><maxFadeInTime t="2"/><relevantTime t="20"/><contact t="7"/></enragedAttack3>
+				<enragedAttack4><file>../assets/DefaultAnimations/Kick4.dae</file><mandatoryTime t="13"/><maxFadeInTime t="2"/><relevantTime t="22"/><contact t="11"/></enragedAttack4>
+				<enragedAttack5><file>../assets/DefaultAnimations/Kick5.dae</file><mandatoryTime t="26"/><maxFadeInTime t="2"/><relevantTime t="26"/><contact t="6"/></enragedAttack5>
+
+				<block><file>../assets/DefaultAnimations/block.dae</file></block>
+
+				<hitReactLeft><file>../assets/DefaultAnimations/hitReactLeft.dae</file></hitReactLeft>
+				<hitReactRight><file>../assets/DefaultAnimations/hitReactRight.dae</file></hitReactRight>
+				<hitReactJab><file>../assets/DefaultAnimations/hitReactJab.dae</file></hitReactJab>
+
+				<die1><file>../assets/DefaultAnimations/Die.dae</file></die1>
+				<dead1><file>../assets/DefaultAnimations/Dead.dae</file></dead1>
+
+				<fightStanceBreath><file>../assets/DefaultAnimations/fightStanceBreath.dae</file></fightStanceBreath>
+				<relaxedBreath><file>../assets/DefaultAnimations/relaxedBreath.dae</file></relaxedBreath>
+				<lookAround><file>../assets/DefaultAnimations/lookAround.dae</file></lookAround>
+
+				<jump><file>../assets/DefaultAnimations/jump.dae</file></jump>
+				<midair><file>../assets/DefaultAnimations/midair.dae</file></midair>
+				<land><file>../assets/DefaultAnimations/land.dae</file></land>
+			</animations>
+		</character>
+		<character name="Uke">
+			<skinnedMeshRenderer>../assets/Characters/Uke/Uke.dae</skinnedMeshRenderer>
+			<diffuse>../assets/Characters/Uke/Diffuse.png</diffuse>
+			<specular>../assets/Characters/Uke/specular.png</specular>
+			<normal>../assets/Characters/Uke/Normal.png</normal>
+			
+			<animations>
+				<runFwd><file>../assets/DefaultAnimations/runFwd.dae</file></runFwd>
+				<runLeft><file>../assets/DefaultAnimations/runLeft.dae</file></runLeft>
+				<runRight><file>../assets/DefaultAnimations/runRight.dae</file></runRight>
+
+				<walkFwd><file>../assets/DefaultAnimations/walkFwd.dae</file></walkFwd>
+				<walkLeft><file>../assets/DefaultAnimations/walkLeft.dae</file></walkLeft>
+				<walkRight><file>../assets/DefaultAnimations/walkRight.dae</file></walkRight>
+
+				<fwdL><file>../assets/DefaultAnimations/FwdL.dae</file></fwdL>
+				<fwdR><file>../assets/DefaultAnimations/FwdR.dae</file></fwdR>
+
+				<leftFwd><file>../assets/DefaultAnimations/LeftFwd.dae</file></leftFwd>
+				<rightFwd><file>../assets/DefaultAnimations/RightFwd.dae</file></rightFwd>
+
+				<left><file>../assets/DefaultAnimations/Left.dae</file></left>
+				<right><file>../assets/DefaultAnimations/Right.dae</file></right>
+
+				<leftBack><file>../assets/DefaultAnimations/LeftBack.dae</file></leftBack>
+				<rightBack><file>../assets/DefaultAnimations/RightBack.dae</file></rightBack>
+
+				<backL><file>../assets/DefaultAnimations/BackL.dae</file></backL>
+				<backR><file>../assets/DefaultAnimations/BackR.dae</file></backR>
+
+				<relaxedAttack1><file>../assets/DefaultAnimations/leftJab.dae</file><mandatoryTime t="14"/><maxFadeInTime t="4"/><relevantTime t="26"/><contact t="7"/></relaxedAttack1>
+				<relaxedAttack2><file>../assets/DefaultAnimations/rightStraight.dae</file><mandatoryTime t="12"/><maxFadeInTime t="2"/><relevantTime t="21"/><contact t="6"/></relaxedAttack2>
+				<relaxedAttack3><file>../assets/DefaultAnimations/leftCross.dae</file><mandatoryTime t="17"/><maxFadeInTime t="2"/><relevantTime t="19"/><contact t="6"/></relaxedAttack3>
+				<relaxedAttack4><file>../assets/DefaultAnimations/rightUppercut.dae</file><mandatoryTime t="15"/><maxFadeInTime t="3"/><relevantTime t="18"/><contact t="5"/></relaxedAttack4>
+				<relaxedAttack5><file>../assets/DefaultAnimations/DoublePunch.dae</file><mandatoryTime t="24"/><maxFadeInTime t="3"/><relevantTime t="24"/><contact t="10"/></relaxedAttack5>
+
+				<enragedAttack1><file>../assets/DefaultAnimations/Kick1.dae</file><mandatoryTime t="19"/><maxFadeInTime t="3"/><relevantTime t="21"/><contact t="6"/></enragedAttack1>
+				<enragedAttack2><file>../assets/DefaultAnimations/Kick2.dae</file><mandatoryTime t="18"/><maxFadeInTime t="3"/><relevantTime t="22"/><contact t="9"/></enragedAttack2>
+				<enragedAttack3><file>../assets/DefaultAnimations/Kick3.dae</file><mandatoryTime t="19"/><maxFadeInTime t="2"/><relevantTime t="20"/><contact t="7"/></enragedAttack3>
+				<enragedAttack4><file>../assets/DefaultAnimations/Kick4.dae</file><mandatoryTime t="18"/><maxFadeInTime t="2"/><relevantTime t="22"/><contact t="11"/></enragedAttack4>
+				<enragedAttack5><file>../assets/DefaultAnimations/Kick5.dae</file><mandatoryTime t="26"/><maxFadeInTime t="2"/><relevantTime t="26"/><contact t="6"/></enragedAttack5>
+
+				<block><file>../assets/DefaultAnimations/block.dae</file></block>
+
+				<hitReactLeft><file>../assets/DefaultAnimations/hitReactLeft.dae</file></hitReactLeft>
+				<hitReactRight><file>../assets/DefaultAnimations/hitReactRight.dae</file></hitReactRight>
+				<hitReactJab><file>../assets/DefaultAnimations/hitReactJab.dae</file></hitReactJab>
+
+
+				<fightStanceBreath><file>../assets/DefaultAnimations/fightStanceBreath.dae</file></fightStanceBreath>
+				<relaxedBreath><file>../assets/DefaultAnimations/relaxedBreath.dae</file></relaxedBreath>
+				<lookAround><file>../assets/DefaultAnimations/lookAround.dae</file></lookAround>
+
+				<die1><file>../assets/DefaultAnimations/Die.dae</file></die1>
+				<dead1><file>../assets/DefaultAnimations/Dead.dae</file></dead1>
+
+				<jump><file>../assets/DefaultAnimations/jump.dae</file></jump>
+				<midair><file>../assets/DefaultAnimations/midair.dae</file></midair>
+				<land><file>../assets/DefaultAnimations/land.dae</file></land>
+			</animations>
+		</character>
+	</characters>
+	<objects>
+		<object name="Arena">
+			<meshRenderer>../assets/Arena.dae</meshRenderer>
+			<!-- <meshRenderer>../assets/80x80terrainGrid.obj</meshRenderer> -->
+			<collider>../assets/staticColliders.dae</collider>
+			<isDynamic>false</isDynamic>
+		</object>
+		<object name="SkyDome">
+			<meshRenderer>../assets/Skybox/skyDome.dae</meshRenderer>
+			<skybox depthOverride="999"/>
+			<isDynamic>false</isDynamic>
+		</object>
+	</objects>
+</resourceManager>

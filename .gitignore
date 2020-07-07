@@ -1,0 +1,7 @@
+.*
+!/.gitignore
+Bullet_User_Manual.pdf
+/PROPS
+/prjRELEASE
+/dependencies/bullet3-2.86.1/examples
+/ExecBinaries

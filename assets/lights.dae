@@ -1,0 +1,486 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset><contributor><author></author><authoring_tool>FBX COLLADA exporter</authoring_tool><comments></comments></contributor><created>2017-11-14T22:23:33Z</created><keywords></keywords><modified>2017-11-14T22:23:33Z</modified><revision></revision><subject></subject><title></title><unit meter="0.010000" name="centimeter"></unit><up_axis>Y_UP</up_axis></asset>
+  <library_lights>
+    <light id="MoonLightSDW-light" name="MoonLightSDW-light">
+      <technique_common>
+        <directional>
+          <color sid="color">1.000000 0.694689 0.622000</color>
+        </directional>
+      </technique_common>
+      <technique profile="MAYA">
+        <intensity sid="intensity">0.454545</intensity>
+      </technique>
+    </light>
+    <light id="_ncl1_1" name="_ncl1_1">
+      <technique_common>
+        <spot> 
+          <constant_attenuation>1.0</constant_attenuation>
+          <linear_attenuation>0.0002</linear_attenuation>
+          <quadratic_attenuation>0.0005</quadratic_attenuation>
+          <color sid="color">1.000000 0.612000 0.224000</color>
+          <falloff_angle sid="angle">30.000000</falloff_angle>
+        </spot>
+      </technique_common>
+      <technique profile="MAYA">
+        <intensity sid="intensity">1.000000</intensity>
+      </technique>
+    </light>
+    <light id="_ncl1_2" name="_ncl1_2">
+      <technique_common>
+        <spot> 
+          <constant_attenuation>1.0</constant_attenuation>
+          <linear_attenuation>0.0002</linear_attenuation>
+          <quadratic_attenuation>0.0005</quadratic_attenuation>
+          <color sid="color">1.000000 0.612000 0.224000</color>
+          <falloff_angle sid="angle">30.000000</falloff_angle>
+        </spot>
+      </technique_common>
+      <technique profile="MAYA">
+        <intensity sid="intensity">1.000000</intensity>
+      </technique>
+    </light>
+    <light id="_ncl1_3" name="_ncl1_3">
+      <technique_common>
+        <spot> 
+          <constant_attenuation>1.0</constant_attenuation>
+          <linear_attenuation>0.0002</linear_attenuation>
+          <quadratic_attenuation>0.0005</quadratic_attenuation>
+          <color sid="color">1.000000 0.612000 0.224000</color>
+          <falloff_angle sid="angle">30.000000</falloff_angle>
+        </spot>
+      </technique_common>
+      <technique profile="MAYA">
+        <intensity sid="intensity">1.000000</intensity>
+      </technique>
+    </light>
+    <light id="_ncl1_4" name="_ncl1_4">
+      <technique_common>
+        <spot> 
+          <constant_attenuation>1.0</constant_attenuation>
+          <linear_attenuation>0.0002</linear_attenuation>
+          <quadratic_attenuation>0.0005</quadratic_attenuation>
+          <color sid="color">1.000000 0.612000 0.224000</color>
+          <falloff_angle sid="angle">30.000000</falloff_angle>
+        </spot>
+      </technique_common>
+      <technique profile="MAYA">
+        <intensity sid="intensity">1.000000</intensity>
+      </technique>
+    </light>
+    <light id="_ncl1_5" name="_ncl1_5">
+      <technique_common>
+        <spot> 
+          <constant_attenuation>1.0</constant_attenuation>
+          <linear_attenuation>0.0002</linear_attenuation>
+          <quadratic_attenuation>0.0005</quadratic_attenuation>
+          <color sid="color">1.000000 0.612000 0.224000</color>
+          <falloff_angle sid="angle">30.000000</falloff_angle>
+        </spot>
+      </technique_common>
+      <technique profile="MAYA">
+        <intensity sid="intensity">1.000000</intensity>
+      </technique>
+    </light>
+    <light id="_ncl1_6" name="_ncl1_6">
+      <technique_common>
+        <spot> 
+          <constant_attenuation>1.0</constant_attenuation>
+          <linear_attenuation>0.0002</linear_attenuation>
+          <quadratic_attenuation>0.0005</quadratic_attenuation>
+          <color sid="color">1.000000 0.612000 0.224000</color>
+          <falloff_angle sid="angle">30.000000</falloff_angle>
+        </spot>
+      </technique_common>
+      <technique profile="MAYA">
+        <intensity sid="intensity">1.000000</intensity>
+      </technique>
+    </light>
+    <light id="_ncl1_7" name="_ncl1_7">
+      <technique_common>
+        <spot> 
+          <constant_attenuation>1.0</constant_attenuation>
+          <linear_attenuation>0.0002</linear_attenuation>
+          <quadratic_attenuation>0.0005</quadratic_attenuation>
+          <color sid="color">1.000000 0.612000 0.224000</color>
+          <falloff_angle sid="angle">30.000000</falloff_angle>
+        </spot>
+      </technique_common>
+      <technique profile="MAYA">
+        <intensity sid="intensity">1.000000</intensity>
+      </technique>
+    </light>
+    <light id="_ncl1_8" name="_ncl1_8">
+      <technique_common>
+        <spot> 
+          <constant_attenuation>1.0</constant_attenuation>
+          <linear_attenuation>0.0002</linear_attenuation>
+          <quadratic_attenuation>0.0005</quadratic_attenuation>
+          <color sid="color">1.000000 0.612000 0.224000</color>
+          <falloff_angle sid="angle">30.000000</falloff_angle>
+        </spot>
+      </technique_common>
+      <technique profile="MAYA">
+        <intensity sid="intensity">1.000000</intensity>
+      </technique>
+    </light>
+    <light id="_ncl1_9" name="_ncl1_9">
+      <technique_common>
+        <spot> 
+          <constant_attenuation>1.0</constant_attenuation>
+          <linear_attenuation>0.0</linear_attenuation>
+          <quadratic_attenuation>0.0</quadratic_attenuation>
+          <color sid="color">1.000000 0.753342 0.417000</color>
+          <falloff_angle sid="angle">30.000000</falloff_angle>
+        </spot>
+      </technique_common>
+      <technique profile="MAYA">
+        <intensity sid="intensity">4.337350</intensity>
+      </technique>
+    </light>
+    <light id="_ncl1_10" name="_ncl1_10">
+      <technique_common>
+        <spot> 
+          <constant_attenuation>1.0</constant_attenuation>
+          <linear_attenuation>0.0</linear_attenuation>
+          <quadratic_attenuation>0.0</quadratic_attenuation>
+          <color sid="color">1.000000 0.753342 0.417000</color>
+          <falloff_angle sid="angle">30.000000</falloff_angle>
+        </spot>
+      </technique_common>
+      <technique profile="MAYA">
+        <intensity sid="intensity">4.337350</intensity>
+      </technique>
+    </light>
+    <light id="_ncl1_11" name="_ncl1_11">
+      <technique_common>
+        <spot> 
+          <constant_attenuation>1.0</constant_attenuation>
+          <linear_attenuation>0.0</linear_attenuation>
+          <quadratic_attenuation>0.0</quadratic_attenuation>
+          <color sid="color">1.000000 0.753342 0.417000</color>
+          <falloff_angle sid="angle">30.000000</falloff_angle>
+        </spot>
+      </technique_common>
+      <technique profile="MAYA">
+        <intensity sid="intensity">4.337350</intensity>
+      </technique>
+    </light>
+    <light id="_ncl1_12" name="_ncl1_12">
+      <technique_common>
+        <spot> 
+          <constant_attenuation>1.0</constant_attenuation>
+          <linear_attenuation>0.0</linear_attenuation>
+          <quadratic_attenuation>0.0</quadratic_attenuation>
+          <color sid="color">1.000000 0.753342 0.417000</color>
+          <falloff_angle sid="angle">30.000000</falloff_angle>
+        </spot>
+      </technique_common>
+      <technique profile="MAYA">
+        <intensity sid="intensity">4.337350</intensity>
+      </technique>
+    </light>
+    <light id="_ncl1_13" name="_ncl1_13">
+      <technique_common>
+        <spot> 
+          <constant_attenuation>1.0</constant_attenuation>
+          <linear_attenuation>0.0</linear_attenuation>
+          <quadratic_attenuation>0.0</quadratic_attenuation>
+          <color sid="color">1.000000 0.753342 0.417000</color>
+          <falloff_angle sid="angle">30.000000</falloff_angle>
+        </spot>
+      </technique_common>
+      <technique profile="MAYA">
+        <intensity sid="intensity">4.337350</intensity>
+      </technique>
+    </light>
+    <light id="_ncl1_14" name="_ncl1_14">
+      <technique_common>
+        <spot> 
+          <constant_attenuation>1.0</constant_attenuation>
+          <linear_attenuation>0.0</linear_attenuation>
+          <quadratic_attenuation>0.0</quadratic_attenuation>
+          <color sid="color">1.000000 0.753342 0.417000</color>
+          <falloff_angle sid="angle">54.702040</falloff_angle>
+        </spot>
+      </technique_common>
+      <technique profile="MAYA">
+        <intensity sid="intensity">4.337350</intensity>
+      </technique>
+    </light>
+    <light id="_ncl1_15" name="_ncl1_15">
+      <technique_common>
+        <spot> 
+          <constant_attenuation>1.0</constant_attenuation>
+          <linear_attenuation>0.0</linear_attenuation>
+          <quadratic_attenuation>0.0</quadratic_attenuation>
+          <color sid="color">1.000000 0.753342 0.417000</color>
+          <falloff_angle sid="angle">30.000000</falloff_angle>
+        </spot>
+      </technique_common>
+      <technique profile="MAYA">
+        <intensity sid="intensity">4.337350</intensity>
+      </technique>
+    </light>
+    <light id="_ncl1_16" name="_ncl1_16">
+      <technique_common>
+        <spot> 
+          <constant_attenuation>1.0</constant_attenuation>
+          <linear_attenuation>0.0</linear_attenuation>
+          <quadratic_attenuation>0.0</quadratic_attenuation>
+          <color sid="color">1.000000 0.753342 0.417000</color>
+          <falloff_angle sid="angle">54.702040</falloff_angle>
+        </spot>
+      </technique_common>
+      <technique profile="MAYA">
+        <intensity sid="intensity">4.337350</intensity>
+      </technique>
+    </light>
+    <light id="_ncl1_17" name="_ncl1_17">
+      <technique_common>
+        <spot> 
+          <constant_attenuation>1.0</constant_attenuation>
+          <linear_attenuation>0.0</linear_attenuation>
+          <quadratic_attenuation>0.0</quadratic_attenuation>
+          <color sid="color">1.000000 0.753342 0.417000</color>
+          <falloff_angle sid="angle">54.702040</falloff_angle>
+        </spot>
+      </technique_common>
+      <technique profile="MAYA">
+        <intensity sid="intensity">4.337350</intensity>
+      </technique>
+    </light>
+    <light id="_ncl1_18" name="_ncl1_18">
+      <technique_common>
+        <spot> 
+          <constant_attenuation>1.0</constant_attenuation>
+          <linear_attenuation>0.0</linear_attenuation>
+          <quadratic_attenuation>0.0</quadratic_attenuation>
+          <color sid="color">1.000000 0.753342 0.417000</color>
+          <falloff_angle sid="angle">54.702040</falloff_angle>
+        </spot>
+      </technique_common>
+      <technique profile="MAYA">
+        <intensity sid="intensity">4.337350</intensity>
+      </technique>
+    </light>
+    <light id="_ncl1_19" name="_ncl1_19">
+      <technique_common>
+        <spot> 
+          <constant_attenuation>1.0</constant_attenuation>
+          <linear_attenuation>0.0</linear_attenuation>
+          <quadratic_attenuation>0.0</quadratic_attenuation>
+          <color sid="color">1.000000 0.753342 0.417000</color>
+          <falloff_angle sid="angle">54.702040</falloff_angle>
+        </spot>
+      </technique_common>
+      <technique profile="MAYA">
+        <intensity sid="intensity">4.337350</intensity>
+      </technique>
+    </light>
+    <light id="_ncl1_20" name="_ncl1_20">
+      <technique_common>
+        <spot> 
+          <constant_attenuation>1.0</constant_attenuation>
+          <linear_attenuation>0.0</linear_attenuation>
+          <quadratic_attenuation>0.0</quadratic_attenuation>
+          <color sid="color">1.000000 0.753342 0.417000</color>
+          <falloff_angle sid="angle">54.702040</falloff_angle>
+        </spot>
+      </technique_common>
+      <technique profile="MAYA">
+        <intensity sid="intensity">4.337350</intensity>
+      </technique>
+    </light>
+    <light id="_ncl1_21" name="_ncl1_21">
+      <technique_common>
+        <spot> 
+          <constant_attenuation>1.0</constant_attenuation>
+          <linear_attenuation>0.0</linear_attenuation>
+          <quadratic_attenuation>0.0</quadratic_attenuation>
+          <color sid="color">1.000000 0.753342 0.417000</color>
+          <falloff_angle sid="angle">54.702040</falloff_angle>
+        </spot>
+      </technique_common>
+      <technique profile="MAYA">
+        <intensity sid="intensity">4.337350</intensity>
+      </technique>
+    </light>
+    <light id="_ncl1_22" name="_ncl1_22">
+      <technique_common>
+        <spot> 
+          <constant_attenuation>1.0</constant_attenuation>
+          <linear_attenuation>0.0</linear_attenuation>
+          <quadratic_attenuation>0.0</quadratic_attenuation>
+          <color sid="color">1.000000 0.753342 0.417000</color>
+          <falloff_angle sid="angle">54.702040</falloff_angle>
+        </spot>
+      </technique_common>
+      <technique profile="MAYA">
+        <intensity sid="intensity">4.337350</intensity>
+      </technique>
+    </light>
+    <light id="_ncl1_23" name="_ncl1_23">
+      <technique_common>
+        <spot> 
+          <constant_attenuation>1.0</constant_attenuation>
+          <linear_attenuation>0.0</linear_attenuation>
+          <quadratic_attenuation>0.0</quadratic_attenuation>
+          <color sid="color">1.000000 0.753342 0.417000</color>
+          <falloff_angle sid="angle">30.000000</falloff_angle>
+        </spot>
+      </technique_common>
+      <technique profile="MAYA">
+        <intensity sid="intensity">4.337350</intensity>
+      </technique>
+    </light>
+    <light id="_ncl1_24" name="_ncl1_24">
+      <technique_common>
+        <spot> 
+          <constant_attenuation>1.0</constant_attenuation>
+          <linear_attenuation>0.0</linear_attenuation>
+          <quadratic_attenuation>0.0</quadratic_attenuation>
+          <color sid="color">0.730926 0.417000 1.000000</color>
+          <falloff_angle sid="angle">30.000000</falloff_angle>
+        </spot>
+      </technique_common>
+      <technique profile="MAYA">
+        <intensity sid="intensity">4.337350</intensity>
+      </technique>
+    </light>
+    <light id="_ncl1_25" name="_ncl1_25">
+      <technique_common>
+        <spot> 
+          <constant_attenuation>1.0</constant_attenuation>
+          <linear_attenuation>0.0</linear_attenuation>
+          <quadratic_attenuation>0.0</quadratic_attenuation>
+          <color sid="color">0.417000 0.573963 1.000000</color>
+          <falloff_angle sid="angle">30.000000</falloff_angle>
+        </spot>
+      </technique_common>
+      <technique profile="MAYA">
+        <intensity sid="intensity">4.337350</intensity>
+      </technique>
+    </light>
+    <light id="_ncl1_26" name="_ncl1_26">
+      <technique_common>
+        <spot> 
+          <constant_attenuation>1.0</constant_attenuation>
+          <linear_attenuation>0.0</linear_attenuation>
+          <quadratic_attenuation>0.0</quadratic_attenuation>
+          <color sid="color">0.753352 1.000000 0.417000</color>
+          <falloff_angle sid="angle">30.000000</falloff_angle>
+        </spot>
+      </technique_common>
+      <technique profile="MAYA">
+        <intensity sid="intensity">4.337350</intensity>
+      </technique>
+    </light>
+    <light id="_ncl1_27" name="_ncl1_27">
+      <technique_common>
+        <spot> 
+          <constant_attenuation>1.0</constant_attenuation>
+          <linear_attenuation>0.0</linear_attenuation>
+          <quadratic_attenuation>0.0</quadratic_attenuation>
+          <color sid="color">0.506695 0.417000 1.000000</color>
+          <falloff_angle sid="angle">30.000000</falloff_angle>
+        </spot>
+      </technique_common>
+      <technique profile="MAYA">
+        <intensity sid="intensity">4.337350</intensity>
+      </technique>
+    </light>
+    <light id="_ncl1_28" name="_ncl1_28">
+      <technique_common>
+        <point> 
+          <constant_attenuation>1.0</constant_attenuation>
+          <linear_attenuation>0.0002</linear_attenuation>
+          <quadratic_attenuation>0.0005</quadratic_attenuation>
+          <color sid="color">0.224000 0.403075 1.000000</color>
+        </point>
+      </technique_common>
+      <technique profile="MAYA">
+        <intensity sid="intensity">1.000000</intensity>
+      </technique>
+    </light>
+    <light id="_ncl1_29" name="_ncl1_29">
+      <technique_common>
+        <point> 
+          <constant_attenuation>1.0</constant_attenuation>
+          <linear_attenuation>0.0002</linear_attenuation>
+          <quadratic_attenuation>0.0005</quadratic_attenuation>
+          <color sid="color">0.224000 0.403075 1.000000</color>
+        </point>
+      </technique_common>
+      <technique profile="MAYA">
+        <intensity sid="intensity">1.000000</intensity>
+      </technique>
+    </light>
+    <light id="_ncl1_30" name="_ncl1_30">
+      <technique_common>
+        <point> 
+          <constant_attenuation>1.0</constant_attenuation>
+          <linear_attenuation>0.0002</linear_attenuation>
+          <quadratic_attenuation>0.0005</quadratic_attenuation>
+          <color sid="color">0.671700 0.224000 1.000000</color>
+        </point>
+      </technique_common>
+      <technique profile="MAYA">
+        <intensity sid="intensity">1.000000</intensity>
+      </technique>
+    </light>
+    <light id="_ncl1_31" name="_ncl1_31">
+      <technique_common>
+        <point> 
+          <constant_attenuation>1.0</constant_attenuation>
+          <linear_attenuation>0.0002</linear_attenuation>
+          <quadratic_attenuation>0.0005</quadratic_attenuation>
+          <color sid="color">1.000000 0.403075 0.224000</color>
+        </point>
+      </technique_common>
+      <technique profile="MAYA">
+        <intensity sid="intensity">1.000000</intensity>
+      </technique>
+    </light>
+  </library_lights>
+  <library_visual_scenes>
+    <visual_scene id="lights" name="lights">
+      <node name="MoonLightSDW" id="MoonLightSDW" sid="MoonLightSDW"><matrix sid="matrix">0.950620 -0.000000 0.310357 0.000000 -0.298904 0.269157 0.915538 0.000000 -0.083535 -0.963096 0.255866 0.000000 0.000000 0.000000 0.000000 1.000000</matrix><instance_light url="#MoonLightSDW-light"/><extra><technique profile="FCOLLADA"><visibility>1.000000</visibility></technique></extra></node>
+      <node name="StreetLightSDW1" id="StreetLightSDW1" sid="StreetLightSDW1"><matrix sid="matrix">4.816699 0.000000 0.000000 -76.524109 0.000000 0.000000 4.816699 53.645729 0.000000 -4.816699 0.000000 18.864851 0.000000 0.000000 0.000000 1.000000</matrix><instance_light url="#_ncl1_1"/><extra><technique profile="FCOLLADA"><visibility>1.000000</visibility></technique></extra></node>
+      <node name="StreetLightSDW2" id="StreetLightSDW2" sid="StreetLightSDW2"><matrix sid="matrix">4.816699 0.000000 0.000000 -75.987511 0.000000 0.000000 4.816699 53.645729 0.000000 -4.816699 0.000000 -49.691101 0.000000 0.000000 0.000000 1.000000</matrix><instance_light url="#_ncl1_2"/><extra><technique profile="FCOLLADA"><visibility>1.000000</visibility></technique></extra></node>
+      <node name="StreetLightSDW3" id="StreetLightSDW3" sid="StreetLightSDW3"><matrix sid="matrix">4.816699 0.000000 0.000000 8.838234 0.000000 0.000000 4.816699 53.645729 0.000000 -4.816699 0.000000 -17.633524 0.000000 0.000000 0.000000 1.000000</matrix><instance_light url="#_ncl1_3"/><extra><technique profile="FCOLLADA"><visibility>1.000000</visibility></technique></extra></node>
+      <node name="StreetLightSDW4" id="StreetLightSDW4" sid="StreetLightSDW4"><matrix sid="matrix">4.816699 0.000000 0.000000 119.566849 0.000000 0.000000 4.816699 53.645729 0.000000 -4.816699 0.000000 -17.633524 0.000000 0.000000 0.000000 1.000000</matrix><instance_light url="#_ncl1_4"/><extra><technique profile="FCOLLADA"><visibility>1.000000</visibility></technique></extra></node>
+      <node name="StreetLightSDW5" id="StreetLightSDW5" sid="StreetLightSDW5"><matrix sid="matrix">4.816699 0.000000 0.000000 119.175911 0.000000 0.000000 4.816699 53.645729 0.000000 -4.816699 0.000000 29.346039 0.000000 0.000000 0.000000 1.000000</matrix><instance_light url="#_ncl1_5"/><extra><technique profile="FCOLLADA"><visibility>1.000000</visibility></technique></extra></node>
+      <node name="StreetLightSDW6" id="StreetLightSDW6" sid="StreetLightSDW6"><matrix sid="matrix">4.816699 0.000000 0.000000 230.375397 0.000000 0.000000 4.816699 53.645729 0.000000 -4.816699 0.000000 -17.633524 0.000000 0.000000 0.000000 1.000000</matrix><instance_light url="#_ncl1_6"/><extra><technique profile="FCOLLADA"><visibility>1.000000</visibility></technique></extra></node>
+      <node name="StreetLightSDW7" id="StreetLightSDW7" sid="StreetLightSDW7"><matrix sid="matrix">4.816699 0.000000 0.000000 229.984467 0.000000 0.000000 4.816699 53.645729 0.000000 -4.816699 0.000000 29.346039 0.000000 0.000000 0.000000 1.000000</matrix><instance_light url="#_ncl1_7"/><extra><technique profile="FCOLLADA"><visibility>1.000000</visibility></technique></extra></node>
+      <node name="StreetLightSDW8" id="StreetLightSDW8" sid="StreetLightSDW8"><matrix sid="matrix">4.816699 0.000000 0.000000 8.447295 0.000000 0.000000 4.816699 53.645729 0.000000 -4.816699 0.000000 29.346039 0.000000 0.000000 0.000000 1.000000</matrix><instance_light url="#_ncl1_8"/><extra><technique profile="FCOLLADA"><visibility>1.000000</visibility></technique></extra></node>
+      <node name="CityLight1" id="CityLight1" sid="CityLight1"><matrix sid="matrix">-4.816673 0.000000 0.015909 985.824402 -0.015909 -0.000000 -4.816673 -54.330017 -0.000000 -4.816699 0.000000 -94.720688 0.000000 0.000000 0.000000 1.000000</matrix><instance_light url="#_ncl1_9"/><extra><technique profile="FCOLLADA"><visibility>1.000000</visibility></technique></extra></node>
+      <node name="CityLight2" id="CityLight2" sid="CityLight2"><matrix sid="matrix">-4.604057 -0.000000 -1.415362 956.795471 1.415362 -0.000000 -4.604057 -54.330017 0.000000 -4.816699 0.000000 221.626999 0.000000 0.000000 0.000000 1.000000</matrix><instance_light url="#_ncl1_10"/><extra><technique profile="FCOLLADA"><visibility>1.000000</visibility></technique></extra></node>
+      <node name="CityLight3" id="CityLight3" sid="CityLight3"><matrix sid="matrix">-4.816673 0.000000 0.015909 823.166992 -0.015909 -0.000000 -4.816673 -54.330017 -0.000000 -4.816699 0.000000 -282.529297 0.000000 0.000000 0.000000 1.000000</matrix><instance_light url="#_ncl1_11"/><extra><technique profile="FCOLLADA"><visibility>1.000000</visibility></technique></extra></node>
+      <node name="CityLight4" id="CityLight4" sid="CityLight4"><matrix sid="matrix">-4.816673 0.000000 0.015909 203.353149 -0.015909 -0.000000 -4.816673 70.896683 -0.000000 -4.816699 0.000000 -413.524841 0.000000 0.000000 0.000000 1.000000</matrix><instance_light url="#_ncl1_12"/><extra><technique profile="FCOLLADA"><visibility>1.000000</visibility></technique></extra></node>
+      <node name="CityLight5" id="CityLight5" sid="CityLight5"><matrix sid="matrix">-4.816673 0.000000 0.015909 -538.012634 -0.015909 -0.000000 -4.816673 70.896683 -0.000000 -4.816699 0.000000 -343.765656 0.000000 0.000000 0.000000 1.000000</matrix><instance_light url="#_ncl1_13"/><extra><technique profile="FCOLLADA"><visibility>1.000000</visibility></technique></extra></node>
+      <node name="CityLight6" id="CityLight6" sid="CityLight6"><matrix sid="matrix">-4.816673 0.000000 0.015909 74.558510 -0.015909 -0.000000 -4.816673 70.896683 -0.000000 -4.816699 0.000000 258.282959 0.000000 0.000000 0.000000 1.000000</matrix><instance_light url="#_ncl1_14"/><extra><technique profile="FCOLLADA"><visibility>1.000000</visibility></technique></extra></node>
+      <node name="CityLight7" id="CityLight7" sid="CityLight7"><matrix sid="matrix">-4.816673 0.000000 0.015909 488.128418 -0.015909 -0.000000 -4.816673 -54.330017 -0.000000 -4.816699 0.000000 -168.509766 0.000000 0.000000 0.000000 1.000000</matrix><instance_light url="#_ncl1_15"/><extra><technique profile="FCOLLADA"><visibility>1.000000</visibility></technique></extra></node>
+      <node name="CityLight8" id="CityLight8" sid="CityLight8"><matrix sid="matrix">-4.816673 0.000000 0.015909 165.274658 -0.015909 -0.000000 -4.816673 70.896683 -0.000000 -4.816699 0.000000 295.602570 0.000000 0.000000 0.000000 1.000000</matrix><instance_light url="#_ncl1_16"/><extra><technique profile="FCOLLADA"><visibility>1.000000</visibility></technique></extra></node>
+      <node name="CityLight9" id="CityLight9" sid="CityLight9"><matrix sid="matrix">-4.816673 0.000000 0.015909 -7.571331 -0.015909 -0.000000 -4.816673 70.896683 -0.000000 -4.816699 0.000000 295.602570 0.000000 0.000000 0.000000 1.000000</matrix><instance_light url="#_ncl1_17"/><extra><technique profile="FCOLLADA"><visibility>1.000000</visibility></technique></extra></node>
+      <node name="CityLight10" id="CityLight10" sid="CityLight10"><matrix sid="matrix">-4.816673 0.000000 0.015909 -502.968140 -0.015909 -0.000000 -4.816673 70.896683 -0.000000 -4.816699 0.000000 209.810287 0.000000 0.000000 0.000000 1.000000</matrix><instance_light url="#_ncl1_18"/><extra><technique profile="FCOLLADA"><visibility>1.000000</visibility></technique></extra></node>
+      <node name="CityLight11" id="CityLight11" sid="CityLight11"><matrix sid="matrix">-4.816673 0.000000 0.015909 -502.968140 -0.015909 -0.000000 -4.816673 70.896683 -0.000000 -4.816699 0.000000 74.083755 0.000000 0.000000 0.000000 1.000000</matrix><instance_light url="#_ncl1_19"/><extra><technique profile="FCOLLADA"><visibility>1.000000</visibility></technique></extra></node>
+      <node name="CityLight12" id="CityLight12" sid="CityLight12"><matrix sid="matrix">-4.816673 0.000000 0.015909 -374.449982 -0.015909 -0.000000 -4.816673 70.896683 -0.000000 -4.816699 0.000000 -452.972534 0.000000 0.000000 0.000000 1.000000</matrix><instance_light url="#_ncl1_20"/><extra><technique profile="FCOLLADA"><visibility>1.000000</visibility></technique></extra></node>
+      <node name="CityLight13" id="CityLight13" sid="CityLight13"><matrix sid="matrix">-4.816673 0.000000 0.015909 -0.078480 -0.015909 -0.000000 -4.816673 1.062747 -0.000000 -4.816699 0.000000 77.783150 0.000000 0.000000 0.000000 1.000000</matrix><instance_light url="#_ncl1_21"/><extra><technique profile="FCOLLADA"><visibility>1.000000</visibility></technique></extra></node>
+      <node name="CityLight14" id="CityLight14" sid="CityLight14"><matrix sid="matrix">-4.816673 0.000000 0.015909 517.291321 -0.015909 -0.000000 -4.816673 64.340569 -0.000000 -4.816699 0.000000 279.198700 0.000000 0.000000 0.000000 1.000000</matrix><instance_light url="#_ncl1_22"/><extra><technique profile="FCOLLADA"><visibility>1.000000</visibility></technique></extra></node>
+      <node name="CityLight15" id="CityLight15" sid="CityLight15"><matrix sid="matrix">-4.816673 0.000000 0.015909 60.779999 -0.015909 -0.000000 -4.816673 70.896683 -0.000000 -4.816699 0.000000 -291.894440 0.000000 0.000000 0.000000 1.000000</matrix><instance_light url="#_ncl1_23"/><extra><technique profile="FCOLLADA"><visibility>1.000000</visibility></technique></extra></node>
+      <node name="CityLight16" id="CityLight16" sid="CityLight16"><matrix sid="matrix">-4.816673 0.000000 0.015909 -28.018009 -0.015909 -0.000000 -4.816673 25.599785 -0.000000 -4.816699 0.000000 -840.456787 0.000000 0.000000 0.000000 1.000000</matrix><instance_light url="#_ncl1_24"/><extra><technique profile="FCOLLADA"><visibility>1.000000</visibility></technique></extra></node>
+      <node name="CityLight17" id="CityLight17" sid="CityLight17"><matrix sid="matrix">-4.816673 0.000000 0.015909 -148.832993 -0.015909 -0.000000 -4.816673 139.685699 -0.000000 -4.816699 0.000000 -399.124817 0.000000 0.000000 0.000000 1.000000</matrix><instance_light url="#_ncl1_25"/><extra><technique profile="FCOLLADA"><visibility>1.000000</visibility></technique></extra></node>
+      <node name="CityLight18" id="CityLight18" sid="CityLight18"><matrix sid="matrix">-4.816673 0.000000 0.015909 -211.883408 -0.015909 -0.000000 -4.816673 64.243446 -0.000000 -4.816699 0.000000 -221.042450 0.000000 0.000000 0.000000 1.000000</matrix><instance_light url="#_ncl1_26"/><extra><technique profile="FCOLLADA"><visibility>1.000000</visibility></technique></extra></node>
+      <node name="CityLight19" id="CityLight19" sid="CityLight19"><matrix sid="matrix">4.816699 0.000000 0.000000 -269.209259 0.000000 0.000000 4.816699 365.319305 0.000000 -4.816699 0.000000 -24.589006 0.000000 0.000000 0.000000 1.000000</matrix><instance_light url="#_ncl1_27"/><extra><technique profile="FCOLLADA"><visibility>1.000000</visibility></technique></extra></node>
+      <node name="PointLight1" id="PointLight1" sid="PointLight1"><matrix sid="matrix">4.816699 0.000000 0.000000 79.169044 0.000000 0.000000 4.816699 28.426809 0.000000 -4.816699 0.000000 -58.691616 0.000000 0.000000 0.000000 1.000000</matrix><instance_light url="#_ncl1_28"/><extra><technique profile="FCOLLADA"><visibility>1.000000</visibility></technique></extra></node>
+      <node name="PointLight2" id="PointLight2" sid="PointLight2"><matrix sid="matrix">4.816699 0.000000 0.000000 153.201767 0.000000 0.000000 4.816699 28.426809 0.000000 -4.816699 0.000000 -58.691616 0.000000 0.000000 0.000000 1.000000</matrix><instance_light url="#_ncl1_29"/><extra><technique profile="FCOLLADA"><visibility>1.000000</visibility></technique></extra></node>
+      <node name="PointLight3" id="PointLight3" sid="PointLight3"><matrix sid="matrix">4.816699 0.000000 0.000000 38.110043 0.000000 0.000000 4.816699 28.426809 0.000000 -4.816699 0.000000 68.913765 0.000000 0.000000 0.000000 1.000000</matrix><instance_light url="#_ncl1_30"/><extra><technique profile="FCOLLADA"><visibility>1.000000</visibility></technique></extra></node>
+      <node name="PointLight4" id="PointLight4" sid="PointLight4"><matrix sid="matrix">4.816699 0.000000 0.000000 -113.637306 0.000000 0.000000 4.816699 19.010387 0.000000 -4.816699 0.000000 -46.016376 0.000000 0.000000 0.000000 1.000000</matrix><instance_light url="#_ncl1_31"/><extra><technique profile="FCOLLADA"><visibility>1.000000</visibility></technique></extra></node>
+      <extra><technique profile="MAX3D"><frame_rate>24.000000</frame_rate></technique><technique profile="FCOLLADA"><start_time>0.041667</start_time><end_time>8.333333</end_time></technique></extra>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#lights"></instance_visual_scene>
+  </scene>
+</COLLADA>
