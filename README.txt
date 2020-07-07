@@ -1,1 +1,0 @@
-http://stackoverflow.com/questions/16074832/cannot-push-to-git-repository-on-bitbucket
