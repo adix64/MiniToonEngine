@@ -7,4 +7,4 @@ MiniToonEngine has been tested with Visual Studio Community 2019, Platform Tools
 You can run GeneratePrj.bat and then upgrade the solution to the latest libraries.<br/>
 After building, copy the missing .lib and .dll files in the executable directory, from the dependencies folder (e.g. SDL mixer)<br/>
 Feel free to email me at adix64@gmail.com for any issues regarding the development of this project.
-![](https://gifs.com/gif/jZmww4)
+![](https://j.gifs.com/jZmww4.gif)
