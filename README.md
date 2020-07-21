@@ -1,6 +1,7 @@
 # Welcome to **MiniToonEngine**!
 
 <img src="https://raw.githubusercontent.com/adix64/MiniToonEngine/master/assets/miniToon.gif" alt="drawing" width="360"/>
+<br/>
 <img src="https://github.com/adix64/MiniToonEngine/blob/master/assets/screenshot1.png" alt="drawing" width="360"/> <img src="https://github.com/adix64/MiniToonEngine/blob/master/assets/screenshot2.png" alt="drawing" width="360"/>
 <br/>
 This project has been in development from 2015 to 2017. Visual Studio is still in development and issues may arise while building.<br/>
