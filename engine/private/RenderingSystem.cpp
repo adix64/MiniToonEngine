@@ -215,7 +215,7 @@ void RenderSystem::Init() {
 
 	{
 		Shader *shader = new Shader("gpuSkinningShader");
-		shader->AddShader("../shaders/gpu_skinning_vertex.glsl", GL_VERTEX_SHADER);
+		shader->AddShader("../assets/shaders/gpu_skinning_vertex.glsl", GL_VERTEX_SHADER);
 		const GLchar *varyingAttributes[] = { "world_pos", "world_normal", "world_tangent", "texcoord" };
 		shader->CreateTransformFeedbackShader(4, varyingAttributes);
 		shaders[shader->GetName()] = shader;
@@ -223,131 +223,131 @@ void RenderSystem::Init() {
 
 	{//geometry pass shader
 		Shader *shader = new Shader("gBufferPassShader");
-		shader->AddShader("../shaders/geometry_pass_vertex.glsl", GL_VERTEX_SHADER);
-		shader->AddShader("../shaders/geometry_pass_fragment.glsl", GL_FRAGMENT_SHADER);
+		shader->AddShader("../assets/shaders/geometry_pass_vertex.glsl", GL_VERTEX_SHADER);
+		shader->AddShader("../assets/shaders/geometry_pass_fragment.glsl", GL_FRAGMENT_SHADER);
 		shader->CreateAndLink();
 		shaders[shader->GetName()] = shader;
 	}
 
 	{//shadow map pass shader
 		Shader *shader = new Shader("shadowMapShader");
-		shader->AddShader("../shaders/shadow_map_vertex.glsl", GL_VERTEX_SHADER);
-		shader->AddShader("../shaders/shadow_map_fragment.glsl", GL_FRAGMENT_SHADER);
+		shader->AddShader("../assets/shaders/shadow_map_vertex.glsl", GL_VERTEX_SHADER);
+		shader->AddShader("../assets/shaders/shadow_map_fragment.glsl", GL_FRAGMENT_SHADER);
 		shader->CreateAndLink();
 		shaders[shader->GetName()] = shader;
 	}
 
 	{//null shader for stencil pass
 		Shader *shader = new Shader("stencilPassShader");
-		shader->AddShader("../shaders/light_pass_vertex.glsl", GL_VERTEX_SHADER);
-		shader->AddShader("../shaders/null_fragment.glsl", GL_FRAGMENT_SHADER);
+		shader->AddShader("../assets/shaders/light_pass_vertex.glsl", GL_VERTEX_SHADER);
+		shader->AddShader("../assets/shaders/null_fragment.glsl", GL_FRAGMENT_SHADER);
 		shader->CreateAndLink();
 		shaders[shader->GetName()] = shader;
 	}
 
 	{//point light shader
 		Shader *shader = new Shader("pointLightShader");
-		shader->AddShader("../shaders/light_pass_vertex.glsl", GL_VERTEX_SHADER);
-		shader->AddShader("../shaders/pointLight_pass_fragment.glsl", GL_FRAGMENT_SHADER);
+		shader->AddShader("../assets/shaders/light_pass_vertex.glsl", GL_VERTEX_SHADER);
+		shader->AddShader("../assets/shaders/pointLight_pass_fragment.glsl", GL_FRAGMENT_SHADER);
 		shader->CreateAndLink();
 		shaders[shader->GetName()] = shader;
 	}
 
 	{//point light shader
 		Shader *shader = new Shader("spotLightShader");
-		shader->AddShader("../shaders/light_pass_vertex.glsl", GL_VERTEX_SHADER);
-		shader->AddShader("../shaders/spotLight_pass_fragment.glsl", GL_FRAGMENT_SHADER);
+		shader->AddShader("../assets/shaders/light_pass_vertex.glsl", GL_VERTEX_SHADER);
+		shader->AddShader("../assets/shaders/spotLight_pass_fragment.glsl", GL_FRAGMENT_SHADER);
 		shader->CreateAndLink();
 		shaders[shader->GetName()] = shader;
 	}
 
 	{//directional light shader
 		Shader *shader = new Shader("directionalLightShader");
-		shader->AddShader("../shaders/fullscreen_pass_vertex.glsl", GL_VERTEX_SHADER);
-		shader->AddShader("../shaders/directionalLight_pass_fragment.glsl", GL_FRAGMENT_SHADER);
+		shader->AddShader("../assets/shaders/fullscreen_pass_vertex.glsl", GL_VERTEX_SHADER);
+		shader->AddShader("../assets/shaders/directionalLight_pass_fragment.glsl", GL_FRAGMENT_SHADER);
 		shader->CreateAndLink();
 		shaders[shader->GetName()] = shader;
 	}
 
 	{//final pass shaders
 		Shader *shader = new Shader("finalPassShader");
-		shader->AddShader("../shaders/fullscreen_pass_vertex.glsl", GL_VERTEX_SHADER);
-		shader->AddShader("../shaders/final_pass_fragment.glsl", GL_FRAGMENT_SHADER);
+		shader->AddShader("../assets/shaders/fullscreen_pass_vertex.glsl", GL_VERTEX_SHADER);
+		shader->AddShader("../assets/shaders/final_pass_fragment.glsl", GL_FRAGMENT_SHADER);
 		shader->CreateAndLink();
 		shaders[shader->GetName()] = shader;
 	}
 
 	{//post process shader
 		Shader *shader = new Shader("postProcessShader");
-		shader->AddShader("../shaders/fullscreen_pass_vertex.glsl", GL_VERTEX_SHADER);
-		shader->AddShader("../shaders/post_process_fragment.glsl", GL_FRAGMENT_SHADER);
+		shader->AddShader("../assets/shaders/fullscreen_pass_vertex.glsl", GL_VERTEX_SHADER);
+		shader->AddShader("../assets/shaders/post_process_fragment.glsl", GL_FRAGMENT_SHADER);
 		shader->CreateAndLink();
 		shaders[shader->GetName()] = shader;
 	}
 
 	{//outline shader
 		Shader *shader = new Shader("outlineShader");
-		shader->AddShader("../shaders/outline_vertex.glsl", GL_VERTEX_SHADER);
-		shader->AddShader("../shaders/outline_fragment.glsl", GL_FRAGMENT_SHADER);
+		shader->AddShader("../assets/shaders/outline_vertex.glsl", GL_VERTEX_SHADER);
+		shader->AddShader("../assets/shaders/outline_fragment.glsl", GL_FRAGMENT_SHADER);
 		shader->CreateAndLink();
 		shaders[shader->GetName()] = shader;
 	}
 
 	{//screen space reflections shader
 		Shader *shader = new Shader("ssReflectionsShader");
-		shader->AddShader("../shaders/fullscreen_pass_vertex.glsl", GL_VERTEX_SHADER);
-		shader->AddShader("../shaders/screen_space_reflection.glsl", GL_FRAGMENT_SHADER);
+		shader->AddShader("../assets/shaders/fullscreen_pass_vertex.glsl", GL_VERTEX_SHADER);
+		shader->AddShader("../assets/shaders/screen_space_reflection.glsl", GL_FRAGMENT_SHADER);
 		shader->CreateAndLink();
 		shaders[shader->GetName()] = shader;
 	}
 	{//skybox shader
 		Shader *shader = new Shader("skyboxShader");
-		shader->AddShader("../shaders/skybox_vertex.glsl", GL_VERTEX_SHADER);
-		shader->AddShader("../shaders/flat_diffuse_fragment.glsl", GL_FRAGMENT_SHADER);
+		shader->AddShader("../assets/shaders/skybox_vertex.glsl", GL_VERTEX_SHADER);
+		shader->AddShader("../assets/shaders/flat_diffuse_fragment.glsl", GL_FRAGMENT_SHADER);
 		shader->CreateAndLink();
 		shaders[shader->GetName()] = shader;
 	}
 	{//static geo shader
 		Shader *shader = new Shader("staticGeoShader");
-		shader->AddShader("../shaders/static_geo_vertex.glsl", GL_VERTEX_SHADER);
-		shader->AddShader("../shaders/static_geo_fragment.glsl", GL_FRAGMENT_SHADER);
+		shader->AddShader("../assets/shaders/static_geo_vertex.glsl", GL_VERTEX_SHADER);
+		shader->AddShader("../assets/shaders/static_geo_fragment.glsl", GL_FRAGMENT_SHADER);
 		shader->CreateAndLink();
 		shaders[shader->GetName()] = shader;
 	}
 	{//Sprite shader
 		Shader *shader = new Shader("spriteshader");
-		shader->AddShader("../shaders/spriteVertex.glsl", GL_VERTEX_SHADER);
-		shader->AddShader("../shaders/flat_diffuse_fragment.glsl", GL_FRAGMENT_SHADER);
+		shader->AddShader("../assets/shaders/spriteVertex.glsl", GL_VERTEX_SHADER);
+		shader->AddShader("../assets/shaders/flat_diffuse_fragment.glsl", GL_FRAGMENT_SHADER);
 		shader->CreateAndLink();
 		shaders[shader->GetName()] = shader;
 	}
 	
 	{//VBlur shader SHADOW(greyscale, r component only)
 		Shader *shader = new Shader("VshadowBlurShader");
-		shader->AddShader("../shaders/fullscreen_pass_vertex.glsl", GL_VERTEX_SHADER);
-		shader->AddShader("../shaders/Vblur_fragment.glsl", GL_FRAGMENT_SHADER);
+		shader->AddShader("../assets/shaders/fullscreen_pass_vertex.glsl", GL_VERTEX_SHADER);
+		shader->AddShader("../assets/shaders/Vblur_fragment.glsl", GL_FRAGMENT_SHADER);
 		shader->CreateAndLink();
 		shaders[shader->GetName()] = shader;
 	}
 	{//HBlur shader SHADOW(greyscale, r component only)
 		Shader *shader = new Shader("HshadowBlurShader");
-		shader->AddShader("../shaders/fullscreen_pass_vertex.glsl", GL_VERTEX_SHADER);
-		shader->AddShader("../shaders/Hblur_fragment.glsl", GL_FRAGMENT_SHADER);
+		shader->AddShader("../assets/shaders/fullscreen_pass_vertex.glsl", GL_VERTEX_SHADER);
+		shader->AddShader("../assets/shaders/Hblur_fragment.glsl", GL_FRAGMENT_SHADER);
 		shader->CreateAndLink();
 		shaders[shader->GetName()] = shader;
 	}
 
 	{//VBlur shader RGB
 		Shader *shader = new Shader("VrgbBlurShader");
-		shader->AddShader("../shaders/fullscreen_pass_vertex.glsl", GL_VERTEX_SHADER);
-		shader->AddShader("../shaders/Vblur_fragmentRGB.glsl", GL_FRAGMENT_SHADER);
+		shader->AddShader("../assets/shaders/fullscreen_pass_vertex.glsl", GL_VERTEX_SHADER);
+		shader->AddShader("../assets/shaders/Vblur_fragmentRGB.glsl", GL_FRAGMENT_SHADER);
 		shader->CreateAndLink();
 		shaders[shader->GetName()] = shader;
 	}
 	{//HBlur shader RGB
 		Shader *shader = new Shader("HrgbBlurShader");
-		shader->AddShader("../shaders/fullscreen_pass_vertex.glsl", GL_VERTEX_SHADER);
-		shader->AddShader("../shaders/Hblur_fragmentRGB.glsl", GL_FRAGMENT_SHADER);
+		shader->AddShader("../assets/shaders/fullscreen_pass_vertex.glsl", GL_VERTEX_SHADER);
+		shader->AddShader("../assets/shaders/Hblur_fragmentRGB.glsl", GL_FRAGMENT_SHADER);
 		shader->CreateAndLink();
 		shaders[shader->GetName()] = shader;
 	}
@@ -355,23 +355,23 @@ void RenderSystem::Init() {
 
 	{//bloom 1st pass shader
 		Shader *shader = new Shader("bloomShader1");
-		shader->AddShader("../shaders/fullscreen_pass_vertex.glsl", GL_VERTEX_SHADER);
-		shader->AddShader("../shaders/bloom1_fragment.glsl", GL_FRAGMENT_SHADER);
+		shader->AddShader("../assets/shaders/fullscreen_pass_vertex.glsl", GL_VERTEX_SHADER);
+		shader->AddShader("../assets/shaders/bloom1_fragment.glsl", GL_FRAGMENT_SHADER);
 		shader->CreateAndLink();
 		shaders[shader->GetName()] = shader;
 	}
 	{//bloom 1st pass shader
 		Shader *shader = new Shader("bloomShader2");
-		shader->AddShader("../shaders/fullscreen_pass_vertex.glsl", GL_VERTEX_SHADER);
-		shader->AddShader("../shaders/bloom2_fragment.glsl", GL_FRAGMENT_SHADER);
+		shader->AddShader("../assets/shaders/fullscreen_pass_vertex.glsl", GL_VERTEX_SHADER);
+		shader->AddShader("../assets/shaders/bloom2_fragment.glsl", GL_FRAGMENT_SHADER);
 		shader->CreateAndLink();
 		shaders[shader->GetName()] = shader;
 	}
 
 	{//minimap pass shader
 		Shader *shader = new Shader("miniMapShader");
-		shader->AddShader("../shaders/mini_map_vertex.glsl", GL_VERTEX_SHADER);
-		shader->AddShader("../shaders/mini_map_fragment.glsl", GL_FRAGMENT_SHADER);
+		shader->AddShader("../assets/shaders/mini_map_vertex.glsl", GL_VERTEX_SHADER);
+		shader->AddShader("../assets/shaders/mini_map_fragment.glsl", GL_FRAGMENT_SHADER);
 		shader->CreateAndLink();
 		shaders[shader->GetName()] = shader;
 	}
@@ -379,48 +379,48 @@ void RenderSystem::Init() {
 	
 	{////flat color shader
 		Shader *shader = new Shader("flatColorShader");
-		shader->AddShader("../shaders/flatColor_vertex.glsl", GL_VERTEX_SHADER);
-		shader->AddShader("../shaders/flatColor_fragment.glsl", GL_FRAGMENT_SHADER);
+		shader->AddShader("../assets/shaders/flatColor_vertex.glsl", GL_VERTEX_SHADER);
+		shader->AddShader("../assets/shaders/flatColor_fragment.glsl", GL_FRAGMENT_SHADER);
 		shader->CreateAndLink();
 		shaders[shader->GetName()] = shader;
 	}
 	
 	{////light halo shader
 		Shader *shader = new Shader("lightHaloShader");
-		shader->AddShader("../shaders/light_halo_vertex.glsl", GL_VERTEX_SHADER);
-		shader->AddShader("../shaders/light_halo_fragment.glsl", GL_FRAGMENT_SHADER);
+		shader->AddShader("../assets/shaders/light_halo_vertex.glsl", GL_VERTEX_SHADER);
+		shader->AddShader("../assets/shaders/light_halo_fragment.glsl", GL_FRAGMENT_SHADER);
 		shader->CreateAndLink();
 		shaders[shader->GetName()] = shader;
 	}
 
 	{////motionTraceShader
 		Shader *shader = new Shader("motionTraceShader");
-		shader->AddShader("../shaders/motion_trace_vertex.glsl", GL_VERTEX_SHADER);
-		shader->AddShader("../shaders/motion_trace_fragment.glsl", GL_FRAGMENT_SHADER);
+		shader->AddShader("../assets/shaders/motion_trace_vertex.glsl", GL_VERTEX_SHADER);
+		shader->AddShader("../assets/shaders/motion_trace_fragment.glsl", GL_FRAGMENT_SHADER);
 		shader->CreateAndLink();
 		shaders[shader->GetName()] = shader;
 	}
 
 	{////sobel shader
 		Shader *shader = new Shader("sobelShader");
-		shader->AddShader("../shaders/fullscreen_pass_vertex.glsl", GL_VERTEX_SHADER);
-		shader->AddShader("../shaders/sobel_fragment.glsl", GL_FRAGMENT_SHADER);
+		shader->AddShader("../assets/shaders/fullscreen_pass_vertex.glsl", GL_VERTEX_SHADER);
+		shader->AddShader("../assets/shaders/sobel_fragment.glsl", GL_FRAGMENT_SHADER);
 		shader->CreateAndLink();
 		shaders[shader->GetName()] = shader;
 	}
 
 	{////luma shader
 		Shader *shader = new Shader("lumaShader");
-		shader->AddShader("../shaders/fullscreen_pass_vertex.glsl", GL_VERTEX_SHADER);
-		shader->AddShader("../shaders/luma_fragment.glsl", GL_FRAGMENT_SHADER);
+		shader->AddShader("../assets/shaders/fullscreen_pass_vertex.glsl", GL_VERTEX_SHADER);
+		shader->AddShader("../assets/shaders/luma_fragment.glsl", GL_FRAGMENT_SHADER);
 		shader->CreateAndLink();
 		shaders[shader->GetName()] = shader;
 	}
 
 	{////fxaa shader
 		Shader *shader = new Shader("fxaaShader");
-		shader->AddShader("../shaders/fullscreen_pass_vertex.glsl", GL_VERTEX_SHADER);
-		shader->AddShader("../shaders/fxaa_fragment.glsl", GL_FRAGMENT_SHADER);
+		shader->AddShader("../assets/shaders/fullscreen_pass_vertex.glsl", GL_VERTEX_SHADER);
+		shader->AddShader("../assets/shaders/fxaa_fragment.glsl", GL_FRAGMENT_SHADER);
 		shader->CreateAndLink();
 		shaders[shader->GetName()] = shader;
 	}
@@ -634,7 +634,7 @@ void RenderSystem::reload() {
 	shaders.erase("gpuSkinningShader");
 	{
 		Shader *shader = new Shader("gpuSkinningShader");
-		shader->AddShader("../shaders/gpu_skinning_vertex.glsl", GL_VERTEX_SHADER);
+		shader->AddShader("../assets/shaders/gpu_skinning_vertex.glsl", GL_VERTEX_SHADER);
 		const GLchar *varyingAttributes[] = { "world_pos", "world_normal", "world_tangent","texcoord" };
 		shader->CreateTransformFeedbackShader(4, varyingAttributes);
 		shaders[shader->GetName()] = shader;

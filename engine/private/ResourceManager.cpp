@@ -55,7 +55,7 @@ void ResourceManager::Init()
 
 	char *file_contents;
 	long input_file_size;
-	FILE *input_file = fopen("../config/resourceManager.xml", "rt");
+	FILE *input_file = fopen("../assets/config/resourceManager.xml", "rt");
 	fseek(input_file, 0, SEEK_END);
 	input_file_size = ftell(input_file);
 	rewind(input_file);
