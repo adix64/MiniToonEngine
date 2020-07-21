@@ -8,4 +8,4 @@ You can run GeneratePrj.bat and then upgrade the solution to the latest librarie
 After building, copy the missing .lib and .dll files in the executable directory, from the dependencies folder (e.g. SDL mixer)<br/>
 Feel free to email me at adix64@gmail.com for any issues regarding the development of this project.
 
-<img src="https://j.gifs.com/jZmww4.gif" alt="drawing" width="360"/>
+<img src="https://raw.githubusercontent.com/adix64/MiniToonEngine/master/miniToon.gif" alt="drawing" width="360"/>
