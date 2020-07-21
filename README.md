@@ -1,7 +1,7 @@
 # Welcome to **MiniToonEngine**!
 
-<img src="https://raw.githubusercontent.com/adix64/MiniToonEngine/master/assets/miniToon.gif" alt="gif" width="360"/>
-<img src="https://raw.githubusercontent.com/adix64/MiniToonEngine/master/assets/screenshot1.png" alt="png1" width="256" align="left"/> <img src="https://raw.githubusercontent.com/adix64/MiniToonEngine/master/assets/screenshot2.png" alt="png1" width="256" align="left"/>
+<img src="https://raw.githubusercontent.com/adix64/MiniToonEngine/master/assets/miniToon.gif" alt="gif" width="360" align="left"/>
+<img src="https://raw.githubusercontent.com/adix64/MiniToonEngine/master/assets/screenshot1.png" alt="png1" width="256" align="right"/> <img src="https://raw.githubusercontent.com/adix64/MiniToonEngine/master/assets/screenshot2.png" alt="png1" width="256" align="right"/>
 <br/>
 
 This project has been in development from 2015 to 2017. Visual Studio is still in development and issues may arise while building.<br/>
